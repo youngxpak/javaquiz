@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--My CSS Style Sheet-->
+    <link rel="stylesheet" href="quiz.css">
+    <!--Questions-->
+    <script type="text/javascript" src="questions.js"></script>
+    <title>JavaScript Quiz!</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+            <h1 class="display-4">Do You Know JavaScript Basics?</h1>
+                <p class="lead">Click Begin to Start!</p>
+                <button type="button" class="btn btn-dark">Begin!</button>
+            </div>
+        </div>  
+        
+        <div id='Quiz'>
+            <div id= "Question">Question 1</div>
+            <div id= "ansA">Answer A </div>
+            <div id= "ansB">Answer B </div>
+            <div id= "ansC">Answer C </div>
+            <div id= "ansD">Answer D </div>
+        </div>
+
+        <div>
+            <h4 id ="buzzer">Timer:</h4>
+        </div>
+        <div>
+            <div id="Score"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
